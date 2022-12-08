@@ -1,0 +1,199 @@
+/*!
+Theme Name: CometPro
+Theme URI: https://mannan.webtechbd-it.com/
+Author: Md Masud Rana
+Author URI: https://mannan.webtechbd-it.com/
+Description:  Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Dolore, consequuntur ducimus a nostrum iure aspernatur at laboriosam odio inventore ea et labore recusandae tempore perferendis sapiente. Maxime doloribus numquam corporis consequatur magnam quae, vitae quod iure? Sequi doloremque possimus rem.
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: cometpro
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+CometPro is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic
+	- Normalize
+	- Box sizing
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Layouts
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+# plugins
+	- Jetpack infinite scroll
+# Utilities
+	- Accessibility
+	- Alignments
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Generic
+--------------------------------------------------------------*/
+
+/* Normalize
+--------------------------------------------- */
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+
+
+.navigation-menu li ul li.menu-item{
+	float: none !important;
+}
+
+.widget ul {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.widget ul > li{
+	list-style: none !important;
+}
+
+
+.widget ul li > a{
+	padding: 12px 0;
+	border-bottom: 1px solid #e7e7e7;
+	letter-spacing: 1px;
+	color: #494e53;
+}
+
+.widget ul li:last-child a{
+	border-bottom: none !important;
+}
+
+.widget{
+	overflow: hidden;
+}
+
+
+
+.widget .tagcloud a{
+	display: block;
+	float: left;
+	color: #494e53;
+	padding: 10px 15px;
+	border: 1px solid #191b1d;
+	margin: 0 10px 10px 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #494e53;
+
+}
+
+.widget .tagcloud a:hover{
+	background-color: #EF2D56;
+	border-color: #EF2D56;
+	color: #fff;
+}
+
+.pagination ul li  a{
+	color: #191b1d;
+	padding: 10px 15px;
+	border-color: transparent;
+	border: 1px solid #fff;
+	font-size: 14px;
+	border-radius: 0;
+	background-color: transparent;
+
+	
+}
+
+.pagination ul li span{
+	background-color: #EF2D56;
+	color: #fff;
+	padding: 10px 15px !important;
+	border: 1px solid #EF2D56;
+}
+
+.pagination ul li span:hover{
+	background-color: #fff;
+	color: #EF2D56;
+	border: 1px solid #EF2D56;
+
+
+}
+
+.comment-pic img{
+	margin-top: 10px;
+	width: 75px;
+	height: 75px;
+}
+
+
+.comment-respond p > input{
+	display: block;
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #e7e7e7;
+}
+
+.comment-respond p > input:focus{
+	border: 1px solid #EF2D56;
+	transition: 0.4s;
+	outline: none;
+}
+
+.comment-respond p > input[type="checkbox"]{
+	display: inline-block;
+	width: auto;
+}
+
+.comment-respond p > input[type="submit"]{
+	width: 25%;
+	border: 1px solid #EF2D56;
+	color: #EF2D56;
+	background-color:#fff ;
+
+}
+
+.comment-respond p > input[type="submit"]:hover{
+	background-color: #EF2D56;
+	color: #fff;
+	border: 1px solid #fff;
+	transition: 0.4s;
+}
+
+.comment-respond textarea{
+	width: 100%;
+}
+
+.comment-respond p > textarea:focus{
+	border: 1px solid #EF2D56;
+	transition: 0.4s;
+	outline: none;
+}
+
+
